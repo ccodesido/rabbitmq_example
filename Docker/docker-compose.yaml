@@ -1,0 +1,15 @@
+version: "3.8"
+name: rabbitmq
+
+services:
+    rabbitmq:
+        image: rabbitmq:3.13-management
+        container_name: rabbitmq-management
+        environment:
+            RABBITMQ_DEFAULT_USER: rabbit
+            RABBITMQ_DEFAULT_PASS: rabbit_pwd  
+        ports:
+            - 5672:5672
+            - 15672:15672
+        restart: always
+        
