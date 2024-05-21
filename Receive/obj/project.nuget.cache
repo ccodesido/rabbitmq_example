@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "29G2103fx4Rku7U29a7DU9sDOfupZpw0lzkeovUMjzVT1/XyJVpsh/Gd5qehXndUZQ6NQAlGR2dsgZsjmL1R8w==",
+  "dgSpecHash": "bMIDjqn/hXbykkFiYG+IC2GQ8PYog1WOeML4MYdPmcHmKD3PTBgZVvkxDdiILR4Jz5eV62TRXrGVhHl5OCJSTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ccode\\OneDrive\\Documentos\\#Desarrollo\\Docker\\rabbitmq\\Receive\\Receive.csproj",
+  "projectFilePath": "C:\\Users\\ccode\\OneDrive\\Documentos\\#Desarrollo\\Docker\\RabbitMQ.Example\\Receive\\Receive.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ccode\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
     "C:\\Users\\ccode\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",

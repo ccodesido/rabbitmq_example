@@ -5,14 +5,14 @@ VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Send", "Send\Send.csproj", "{D83482BD-5411-4031-A38F-D5D2C325CE9B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Receive", "..\rabbitmq\Receive\Receive.csproj", "{06422712-0DCF-430B-A557-A9BE1BD860B2}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{2359D55F-DBD5-4970-BD4D-F5DD1728A974}"
 	ProjectSection(SolutionItems) = preProject
 		Docker\docker-compose.yaml = Docker\docker-compose.yaml
 		Docker\docker.txt = Docker\docker.txt
 		Docker\Dockerfile = Docker\Dockerfile
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Receive", "Receive\Receive.csproj", "{A9069AC8-8E76-4617-8706-D58558D706A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,10 +24,10 @@ Global
 		{D83482BD-5411-4031-A38F-D5D2C325CE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D83482BD-5411-4031-A38F-D5D2C325CE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D83482BD-5411-4031-A38F-D5D2C325CE9B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{06422712-0DCF-430B-A557-A9BE1BD860B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{06422712-0DCF-430B-A557-A9BE1BD860B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06422712-0DCF-430B-A557-A9BE1BD860B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06422712-0DCF-430B-A557-A9BE1BD860B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9069AC8-8E76-4617-8706-D58558D706A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9069AC8-8E76-4617-8706-D58558D706A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9069AC8-8E76-4617-8706-D58558D706A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9069AC8-8E76-4617-8706-D58558D706A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

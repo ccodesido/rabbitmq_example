@@ -25,10 +25,20 @@ namespace Send
             {
                 using (var channel = connection.CreateModel())
                 {
-                    channel.QueueDeclare(queue: "hello", durable: false, exclusive: false, autoDelete: false, arguments: null);
+                    //Channel Basic
+                    //channel.QueueDeclare(queue: "hello", durable:false, exclusive:false, autoDelete:false, arguments:null);
+
+                    //Channel Exchange
+                    channel.ExchangeDeclare(exchange: "test", type: ExchangeType.Fanout);
+
                     var body = Encoding.UTF8.GetBytes(message);
 
-                    channel.BasicPublish(exchange: "", routingKey: "hello", basicProperties: null, body: body);
+                    //Channel Basic
+                    //channel.BasicPublish(exchange: "", routingKey: "hello", basicProperties: null, body: body);
+
+                    //Channel Exchange
+                    channel.BasicPublish(exchange: "test", routingKey: "", basicProperties: null, body: body);
+
                     Console.WriteLine($"Sent: {message}");
                 }
             }
